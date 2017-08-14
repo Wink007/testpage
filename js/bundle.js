@@ -29881,7 +29881,7 @@
 
 	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 
-	var _templateObject = _taggedTemplateLiteral(['\n  div:first-child {\n    background-color: #282828;\n    align-items: center;\n    display: flex;\n\n    img {\n      padding: 14px 24px 14px 14px;\n    }\n    span {\n      color: #ffffff;\n      font-family: Arial;\n      font-size: 12px;\n\n      em {\n        color: #c5c5c5;\n      }\n    }\n  }\n\n  .wellcome-clix {\n    padding: 52px 14px 0;\n\n    p{\n      font-family: Code;\n      text-align: center;\n      font-size: 40px;\n      font-weight: 700;\n      color: #282828;\n\n      mark{\n        background-color: #282828;\n        color: #fff;\n      }\n    }\n    p:last-child {\n      padding-top: 10px;\n      padding-bottom: 37px;\n      border-bottom: 2px solid #e5e5e5;\n    }\n  }\n'], ['\n  div:first-child {\n    background-color: #282828;\n    align-items: center;\n    display: flex;\n\n    img {\n      padding: 14px 24px 14px 14px;\n    }\n    span {\n      color: #ffffff;\n      font-family: Arial;\n      font-size: 12px;\n\n      em {\n        color: #c5c5c5;\n      }\n    }\n  }\n\n  .wellcome-clix {\n    padding: 52px 14px 0;\n\n    p{\n      font-family: Code;\n      text-align: center;\n      font-size: 40px;\n      font-weight: 700;\n      color: #282828;\n\n      mark{\n        background-color: #282828;\n        color: #fff;\n      }\n    }\n    p:last-child {\n      padding-top: 10px;\n      padding-bottom: 37px;\n      border-bottom: 2px solid #e5e5e5;\n    }\n  }\n']);
+	var _templateObject = _taggedTemplateLiteral(['\n  div:first-child {\n    background-color: #282828;\n    align-items: center;\n    display: flex;\n\n    img {\n      padding: 14px 24px 14px 14px;\n    }\n    span {\n      color: #ffffff;\n      font-family: Arial;\n      font-size: 12px;\n\n      em {\n        color: #c5c5c5;\n      }\n    }\n  }\n\n  .wellcome-clix {\n    padding: 52px 0 37px;\n    margin: 0 14px;\n    border-bottom: 2px solid #e5e5e5;\n\n    p{\n      font-family: Code;\n      text-align: center;\n      font-size: 40px;\n      font-weight: 700;\n      color: #282828;\n\n      mark{\n        background-color: #282828;\n        color: #fff;\n      }\n    }\n    p:last-child {\n      padding-top: 10px;\n      /*padding-bottom: 37px;*/\n    }\n  }\n'], ['\n  div:first-child {\n    background-color: #282828;\n    align-items: center;\n    display: flex;\n\n    img {\n      padding: 14px 24px 14px 14px;\n    }\n    span {\n      color: #ffffff;\n      font-family: Arial;\n      font-size: 12px;\n\n      em {\n        color: #c5c5c5;\n      }\n    }\n  }\n\n  .wellcome-clix {\n    padding: 52px 0 37px;\n    margin: 0 14px;\n    border-bottom: 2px solid #e5e5e5;\n\n    p{\n      font-family: Code;\n      text-align: center;\n      font-size: 40px;\n      font-weight: 700;\n      color: #282828;\n\n      mark{\n        background-color: #282828;\n        color: #fff;\n      }\n    }\n    p:last-child {\n      padding-top: 10px;\n      /*padding-bottom: 37px;*/\n    }\n  }\n']);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
@@ -29982,7 +29982,7 @@
 	  value: true
 	});
 
-	var _templateObject = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n\n  img {\n    padding: 25px 0 33px 18px;\n  }\n\n  ul{\n    display: flex;\n    justify-content: space-between;\n    width: 280px;\n    padding-right: 14px;\n    a {\n      text-align: center;\n      color: #282828;\n      text-transform: uppercase;\n      font-family: "Agency FB";\n      font-size: 13px;\n      text-decoration: none;\n      &:hover {\n        text-decoration: underline;\n      }\n    }\n  }\n'], ['\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n\n  img {\n    padding: 25px 0 33px 18px;\n  }\n\n  ul{\n    display: flex;\n    justify-content: space-between;\n    width: 280px;\n    padding-right: 14px;\n    a {\n      text-align: center;\n      color: #282828;\n      text-transform: uppercase;\n      font-family: "Agency FB";\n      font-size: 13px;\n      text-decoration: none;\n      &:hover {\n        text-decoration: underline;\n      }\n    }\n  }\n']);
+	var _templateObject = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 25px 14px 33px 18px;\n\n  ul{\n    display: flex;\n    justify-content: space-between;\n    width: 280px;\n\n    a {\n      text-align: center;\n      color: #282828;\n      text-transform: uppercase;\n      font-family: "Agency FB";\n      font-size: 13px;\n      text-decoration: none;\n      &:hover {\n        text-decoration: underline;\n      }\n    }\n  }\n'], ['\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 25px 14px 33px 18px;\n\n  ul{\n    display: flex;\n    justify-content: space-between;\n    width: 280px;\n\n    a {\n      text-align: center;\n      color: #282828;\n      text-transform: uppercase;\n      font-family: "Agency FB";\n      font-size: 13px;\n      text-decoration: none;\n      &:hover {\n        text-decoration: underline;\n      }\n    }\n  }\n']);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
@@ -30257,7 +30257,7 @@
 	  value: true
 	});
 
-	var _templateObject = _taggedTemplateLiteral(['\n  .about {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n    padding: 46px 0 42px;\n    margin: 0 15px;\n    border-bottom: 2px solid #e5e5e5;\n  }\n  .portfolio {\n    padding: 38px 0 11px;\n    margin: 0 15px;\n    border-bottom: 2px solid #e5e5e5;\n    h2 {\n      width: 86px;\n      background: #282828;\n      color: #fff;\n      font-family: "Rockwell";\n      font-size: 17px;\n      line-height: 1;\n      font-weight: 400;\n    }\n    div {\n      display: flex;\n      flex-wrap: wrap;\n      justify-content: space-between;\n    }\n  }\n'], ['\n  .about {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n    padding: 46px 0 42px;\n    margin: 0 15px;\n    border-bottom: 2px solid #e5e5e5;\n  }\n  .portfolio {\n    padding: 38px 0 11px;\n    margin: 0 15px;\n    border-bottom: 2px solid #e5e5e5;\n    h2 {\n      width: 86px;\n      background: #282828;\n      color: #fff;\n      font-family: "Rockwell";\n      font-size: 17px;\n      line-height: 1;\n      font-weight: 400;\n    }\n    div {\n      display: flex;\n      flex-wrap: wrap;\n      justify-content: space-between;\n    }\n  }\n']);
+	var _templateObject = _taggedTemplateLiteral(['\n  .about {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n    padding: 46px 0 42px;\n    margin: 0 15px;\n    border-bottom: 2px solid #e5e5e5;\n  }\n  .portfolio {\n    padding: 38px 0 11px;\n    margin: 0 15px;\n    border-bottom: 2px solid #e5e5e5;\n    h2 {\n      width: 86px;\n      background: #282828;\n      color: #fff;\n      font-family: "Rockwell";\n      font-size: 17px;\n      line-height: 1;\n      font-weight: 400;\n    }\n    >div {\n      display: flex;\n      flex-wrap: wrap;\n      justify-content: space-between;\n    }\n  }\n'], ['\n  .about {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n    padding: 46px 0 42px;\n    margin: 0 15px;\n    border-bottom: 2px solid #e5e5e5;\n  }\n  .portfolio {\n    padding: 38px 0 11px;\n    margin: 0 15px;\n    border-bottom: 2px solid #e5e5e5;\n    h2 {\n      width: 86px;\n      background: #282828;\n      color: #fff;\n      font-family: "Rockwell";\n      font-size: 17px;\n      line-height: 1;\n      font-weight: 400;\n    }\n    >div {\n      display: flex;\n      flex-wrap: wrap;\n      justify-content: space-between;\n    }\n  }\n']);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
@@ -30297,7 +30297,7 @@
 	      'section',
 	      { id: 'about', className: 'about' },
 	      _AboutItemsJs2['default'].map(function (item) {
-	        return _react2['default'].createElement(_About2['default'], { key: item.id, image: item.image, alt: item.alt, title: item.title, text: item.text });
+	        return _react2['default'].createElement(_About2['default'], { key: item.id, image: item.image, alt: item.alt, title: item.title, subtitle: item.subtitle, position: item.position, text: item.text });
 	      })
 	    ),
 	    _react2['default'].createElement(
@@ -30331,7 +30331,7 @@
 	  value: true
 	});
 
-	var _templateObject = _taggedTemplateLiteral(['\n  flex-basis: 210px;\n  div {\n    display: flex;\n    width: 170px;\n    align-items: center;\n\n    span {\n      padding-left: 10px;\n      color: #282828;\n      text-align: center;\n      font-family: Rockwell;\n      font-size: 17px;\n    }\n  }\n  p{\n    color: #595959;\n    font-family: Verdana;\n    font-size: 11px;\n    font-weight: 400;\n    padding-top: 15px;\n    letter-spacing: -0.5;\n    line-height: 1.6;\n  }\n'], ['\n  flex-basis: 210px;\n  div {\n    display: flex;\n    width: 170px;\n    align-items: center;\n\n    span {\n      padding-left: 10px;\n      color: #282828;\n      text-align: center;\n      font-family: Rockwell;\n      font-size: 17px;\n    }\n  }\n  p{\n    color: #595959;\n    font-family: Verdana;\n    font-size: 11px;\n    font-weight: 400;\n    padding-top: 15px;\n    letter-spacing: -0.5;\n    line-height: 1.6;\n  }\n']);
+	var _templateObject = _taggedTemplateLiteral(['\n  flex-basis: 210px;\n  header {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    position: relative;\n\n    &:before {\n      content: \'\';\n      position: absolute;\n      width: 47px;\n      height: 47px;\n      left: 0;\n      background: url(img/sprite-about.png) no-repeat ', ';\n    }\n\n    p {\n      padding-left: 10px;\n      color: #282828;\n      text-align: center;\n      font-family: Rockwell;\n      font-size: 17px;\n    }\n  }\n  >p{\n    color: #595959;\n    font-family: Verdana;\n    font-size: 11px;\n    font-weight: 400;\n    padding-top: 15px;\n    letter-spacing: -0.5;\n    line-height: 1.6;\n  }\n'], ['\n  flex-basis: 210px;\n  header {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    position: relative;\n\n    &:before {\n      content: \'\';\n      position: absolute;\n      width: 47px;\n      height: 47px;\n      left: 0;\n      background: url(img/sprite-about.png) no-repeat ', ';\n    }\n\n    p {\n      padding-left: 10px;\n      color: #282828;\n      text-align: center;\n      font-family: Rockwell;\n      font-size: 17px;\n    }\n  }\n  >p{\n    color: #595959;\n    font-family: Verdana;\n    font-size: 11px;\n    font-weight: 400;\n    padding-top: 15px;\n    letter-spacing: -0.5;\n    line-height: 1.6;\n  }\n']);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
@@ -30347,25 +30347,37 @@
 
 	var _reactRouterDom = __webpack_require__(221);
 
-	var StyledAbout = _styledComponents2['default'].div(_templateObject);
+	var StyledAbout = _styledComponents2['default'].div(_templateObject, function (props) {
+	  return props.position;
+	});
 
 	var About = function About(props) {
 	  var image = props.image;
 	  var alt = props.alt;
 	  var title = props.title;
+	  var subtitle = props.subtitle;
+	  var position = props.position;
 	  var text = props.text;
 
 	  return _react2['default'].createElement(
 	    StyledAbout,
-	    null,
+	    { position: position },
 	    _react2['default'].createElement(
-	      'div',
+	      'header',
 	      null,
-	      _react2['default'].createElement('img', { src: image, alt: alt }),
 	      _react2['default'].createElement(
 	        'span',
 	        null,
-	        title
+	        _react2['default'].createElement(
+	          'p',
+	          null,
+	          title
+	        ),
+	        _react2['default'].createElement(
+	          'p',
+	          null,
+	          subtitle
+	        )
 	      )
 	    ),
 	    _react2['default'].createElement(
@@ -30443,25 +30455,33 @@
 	  id: "9",
 	  image: "./img/home.png",
 	  alt: "High quality",
-	  title: "High Quality Webdesign",
+	  title: "High Quality",
+	  subtitle: "Webdesign",
+	  position: "0 0",
 	  text: "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna."
 	}, {
 	  id: "10",
 	  image: "./img/heart.png",
 	  alt: "Love works",
-	  title: "We Love Our Works",
+	  title: "We Love",
+	  subtitle: "Our Works",
+	  position: "-47px -48px",
 	  text: "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna."
 	}, {
 	  id: "11",
 	  image: "./img/cloud.png",
 	  alt: "Free cloud",
-	  title: "Free Driving At Cloud",
+	  title: "Free Driving",
+	  subtitle: "At Cloud",
+	  position: "-94px -95px",
 	  text: "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna."
 	}, {
 	  id: "12",
 	  image: "./img/tools.png",
 	  alt: "Work everyone",
-	  title: "We Work For Everyone",
+	  title: "We Work For",
+	  subtitle: "Everyone",
+	  position: "-142px -141px",
 	  text: "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna."
 	}];
 	module.exports = exports["default"];
