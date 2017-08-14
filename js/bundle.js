@@ -30401,7 +30401,7 @@
 	  value: true
 	});
 
-	var _templateObject = _taggedTemplateLiteral(['\n  flex-basis: 210px;\n  padding: 20px 0 28px;\n  img{\n    width: 220px;\n    height: 128px;\n  }\n  p {\n    color: #595959;\n    font-family: Verdana;\n    font-size: 11px;\n    line-height: 1.6;\n    padding-top: 12px;\n    letter-spacing: -0.3;\n  }\n  a:hover {\n    box-shadow: 3px 3px 5px rgba(0,0,0,.4);\n  }\n'], ['\n  flex-basis: 210px;\n  padding: 20px 0 28px;\n  img{\n    width: 220px;\n    height: 128px;\n  }\n  p {\n    color: #595959;\n    font-family: Verdana;\n    font-size: 11px;\n    line-height: 1.6;\n    padding-top: 12px;\n    letter-spacing: -0.3;\n  }\n  a:hover {\n    box-shadow: 3px 3px 5px rgba(0,0,0,.4);\n  }\n']);
+	var _templateObject = _taggedTemplateLiteral(['\n  flex-basis: 210px;\n  padding: 20px 0 28px;\n  img{\n    width: 220px;\n    height: 128px;\n  }\n  figcaption {\n    color: #595959;\n    font-family: Verdana;\n    font-size: 11px;\n    line-height: 1.6;\n    padding-top: 12px;\n    letter-spacing: -0.3;\n  }\n  a:hover {\n    box-shadow: 3px 3px 5px rgba(0,0,0,.4);\n  }\n'], ['\n  flex-basis: 210px;\n  padding: 20px 0 28px;\n  img{\n    width: 220px;\n    height: 128px;\n  }\n  figcaption {\n    color: #595959;\n    font-family: Verdana;\n    font-size: 11px;\n    line-height: 1.6;\n    padding-top: 12px;\n    letter-spacing: -0.3;\n  }\n  a:hover {\n    box-shadow: 3px 3px 5px rgba(0,0,0,.4);\n  }\n']);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
@@ -30417,7 +30417,7 @@
 
 	var _reactRouterDom = __webpack_require__(221);
 
-	var StyledPortfolio = _styledComponents2['default'].div(_templateObject);
+	var StyledPortfolio = _styledComponents2['default'].figure(_templateObject);
 
 	var Portfolio = function Portfolio(props) {
 	  var preview = props.preview;
@@ -30432,7 +30432,7 @@
 	      _react2['default'].createElement('img', { src: preview, alt: 'preview' })
 	    ),
 	    _react2['default'].createElement(
-	      'p',
+	      'figcaption',
 	      null,
 	      text
 	    )
